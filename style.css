@@ -149,7 +149,7 @@ ul, li, ol {
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #28a9e2;
+    color: black;
 }
 
 .navbar-dark .navbar-nav .nav-link.active::after {
@@ -159,11 +159,11 @@ ul, li, ol {
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link {
-    color: #28a9e2;
+    color: #151d94;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link::after {
-    background: #28a9e2;
+    background: #151d94;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-link.active {
@@ -2073,4 +2073,13 @@ select.mobile-device {
 .btn-light:hover, .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+
+.image-size {
+    height: 150px;
+    width: 150px;
+}
+
+.bg-image {
+    background-image: url('./uploads/cool-background.png');
 }
