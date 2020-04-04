@@ -167,6 +167,16 @@
 			</div>
 			<div class="gallery-list row">
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+					<a href="https://github.com/VartanyanE/burger" target="_blank">
+						<h4> The Burger Stand</h4>
+					</a>
+					<div class="gallery-single fix">
+						<img src="uploads/burger.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="https://burgermurger.herokuapp.com/" target="_blank" data-rel=""
+								class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
 
 				</div>
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
@@ -182,6 +192,7 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+
 					< </div>
 
 
@@ -203,7 +214,8 @@
 					<div class="col-md-12">
 						<div class="contact_form">
 							<div id="message"></div>
-							<form id="contactForm" name="sentMessage" novalidate="novalidate">
+							<form action="http://127.0.0.1:8081/contact" method="POST" id="contactForm"
+								name="sentMessage" novalidate="novalidate" role="form">
 								<div class="row">
 									<div class="col-md-6">
 										<div class="form-group">
@@ -274,6 +286,7 @@
 		<script src="js/headline.js"></script>
 		<script src="js/contact_me.js"></script>
 		<script src="js/custom.js"></script>
+		<script src="./server.js"></script>
 
 
 
